@@ -52,10 +52,10 @@ export default class HomeScreen extends Component {
                           style={styles.routeCard} onPress={() =>
                         this.props("SpaceCraft")
                     }> */}
-                    {/* <TouchableOpacity 
+                     <TouchableOpacity 
                           style={styles.routeCard} onPress={() =>
                         this.props.navigation.navigate("SpaceCraft")
-                    }> */}                    
+                    }>                     
                         <Text style={styles.routeText}>Naves Espaciais</Text>
                         <Image source={require("../assets/space_crafts.png")} style={styles.routeImage}></Image>
                     </TouchableOpacity>
